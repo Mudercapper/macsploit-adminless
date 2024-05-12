@@ -12,3 +12,11 @@ Use this to install it without the admin perms
 ```
 cd ~/ && curl -s "https://raw.githubusercontent.com/nerdifly/macsploit-adminless/main/install.sh" | bash </dev/tty
 ```
+
+Macsploit is not free more info in teir discord server
+(can be made free sometimes)
+
+Offical discord server:
+https://discord.com/macsploit
+
+I am not part of teir dev team 
