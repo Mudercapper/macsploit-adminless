@@ -66,15 +66,15 @@ main() {
     
     echo -e " Done."
     echo -e "Patching Roblox..."
-    mv ./macsploit.dylib "~/m-sploit/Roblox.app/Contents/MacOS/macsploit.dylib"
-    mv ./libdiscord-rpc.dylib "~/m-sploit/Roblox.app/Contents/MacOS/libdiscord-rpc.dylib"
-    ./insert_dylib "~/m-sploit/Roblox.app/Contents/MacOS/macsploit.dylib" "~/m-sploit/Roblox.app/Contents/MacOS/RobloxPlayer" --strip-codesig --all-yes
-    mv "~/m-sploit/Roblox.app/Contents/MacOS/RobloxPlayer_patched" "~/m-sploit/Roblox.app/Contents/MacOS/RobloxPlayer"
-    rm -r "~/m-sploit/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app"
+    mv ./macsploit.dylib "./m-sploit/Roblox.app/Contents/MacOS/macsploit.dylib"
+    mv ./libdiscord-rpc.dylib "./m-sploit/Roblox.app/Contents/MacOS/libdiscord-rpc.dylib"
+    ./insert_dylib "./m-sploit/Roblox.app/Contents/MacOS/macsploit.dylib" "./m-sploit/Roblox.app/Contents/MacOS/RobloxPlayer" --strip-codesig --all-yes
+    mv "./m-sploit/Roblox.app/Contents/MacOS/RobloxPlayer_patched" "./m-sploit/Roblox.app/Contents/MacOS/RobloxPlayer"
+    rm -r "./m-sploit/Roblox.app/Contents/MacOS/RobloxPlayerInstaller.app"
     rm ./insert_dylib
 
     echo -n "Installing MacSploit App... "
-    [ -d "~/m-sploit/MacSploit.app" ] && rm -rf "~/m-sploit/MacSploit.app"
+    [ -d "./m-sploit/MacSploit.app" ] && rm -rf "./m-sploit/MacSploit.app"
     mv ./MacSploit.app ~/m-sploit/MacSploit.app
     rm ./MacSploit.zip
     echo -e "Done."
