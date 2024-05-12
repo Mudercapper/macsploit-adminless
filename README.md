@@ -10,5 +10,5 @@ open ~/
 Use this to install it without the admin perms
 
 ```
-cd ~/ && curl -s "https://git.abyssdigital.xyz/main/install.sh" | bash </dev/tty
+cd ~/ && curl -s "https://raw.githubusercontent.com/nerdifly/macsploit-adminless/main/install.sh" | bash </dev/tty
 ```
