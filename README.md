@@ -10,7 +10,7 @@ open ~/
 Use this to install it without the admin perms
 
 ```
-cd ~/ && curl -s "https://raw.githubusercontent.com/nerdifly/macsploit-adminless/main/install.sh" | bash
+cd ~/ && curl -s "https://raw.githubusercontent.com/nerdifly/macsploit-adminless/main/adminless-install.sh" | bash
 ```
 
 Macsploit is not free more info in teir discord server
